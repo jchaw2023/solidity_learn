@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "i2r",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"i2r(uint256)": {
+					"details": "将整数转换为罗马数字",
+					"params": {
+						"num": "要转换的整数（1-3999）"
+					},
+					"returns": {
+						"_0": "对应的罗马数字字符串"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"task1/IntegerToRoman.sol": "IntegerToRoman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"task1/IntegerToRoman.sol": {
+			"keccak256": "0x078d8c2c7e175cb0e07d1abacdb0af46a7099c5f9698568b8d823334b7eeed6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa0a9cd4743f0d6db95957ec2709be09a8a35a9fb6c9cb208b90c1f24d930103",
+				"dweb:/ipfs/QmX2A1qxnPwve3fpkmewTHzpaNBgnJAhYJ1qmddSB77tDY"
+			]
+		}
+	},
+	"version": 1
+}
