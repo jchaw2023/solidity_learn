@@ -70,13 +70,16 @@ contract Voting {
         }
 
         // 清空候选人列表
-        for (uint i = 0; i < namesLength; i++) {
-            votedNames.pop();
-        }
+        delete votedNames;
+        // for (uint i = 0; i < namesLength; i++) {
+        //     votedNames.pop();
+        // }
 
+      
         // 清空投票人地址列表
-        for (uint i = 0; i < addrsLength; i++) {
-            votingAddrs.pop();
-        }
+        delete votingAddrs;
+        // for (uint i = 0; i < addrsLength; i++) {
+        //     votingAddrs.pop();
+        // }
     }
 }
