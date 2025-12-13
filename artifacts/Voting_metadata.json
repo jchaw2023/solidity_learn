@@ -93,8 +93,13 @@
 				"name": "votingCountMap",
 				"outputs": [
 					{
+						"internalType": "bool",
+						"name": "exists",
+						"type": "bool"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "count",
 						"type": "uint256"
 					}
 				],
@@ -168,11 +173,11 @@
 	},
 	"sources": {
 		"task1/Voting.sol": {
-			"keccak256": "0x3df242ff62658cd42ff1bf59bdef2a9a881eb6be989978437e0c50e5e9154720",
+			"keccak256": "0xaea72c2e1b5e48b6e9eea9ff3f844e594cac221405fd09ed1db943336a6e9c4c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6cd20dcbb917513f54f17d9031dcb8e962ecf04756b15859b725b6905ebe521e",
-				"dweb:/ipfs/QmY9PKCpvWu2cAx9Lhx7SRagrZ4M9Ln2mRKiJPDP2DWuFj"
+				"bzz-raw://8b5f8749eca27f073c86f8f118c834b0f7e31ad8c987443bd25821bbebfe1d01",
+				"dweb:/ipfs/QmdtucdED1hFm9bd5oPJAveiF3Ab1VNdgkZR18h8mT71Uj"
 			]
 		}
 	},
